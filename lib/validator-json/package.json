@@ -1,0 +1,86 @@
+{
+  "_args": [
+    [
+      "validator-json",
+      "/home/student/WebstormProjects/day3"
+    ]
+  ],
+  "_from": "validator-json@latest",
+  "_id": "validator-json@2.0.6",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/validator-json",
+  "_nodeVersion": "0.12.7",
+  "_npmUser": {
+    "email": "s_f_dragon@163.com",
+    "name": "blackwhite"
+  },
+  "_npmVersion": "2.14.2",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "validator-json",
+    "raw": "validator-json",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/validator-json/-/validator-json-2.0.6.tgz",
+  "_shasum": "875f6367a944a3766925fd3445193358c2b416ec",
+  "_shrinkwrap": null,
+  "_spec": "validator-json",
+  "_where": "/home/student/WebstormProjects/day3",
+  "author": {
+    "email": "s_f_dragon@163.com",
+    "name": "blackwhite"
+  },
+  "bugs": {
+    "url": "https://github.com/CocaCola183/validator-json/issues"
+  },
+  "dependencies": {
+    "lodash": "^3.10.1"
+  },
+  "description": "Validator for javascript object data",
+  "devDependencies": {
+    "coveralls": "^2.11.4",
+    "mocha": "^2.2.5",
+    "mocha-lcov-reporter": "0.0.2",
+    "should": "^7.1.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "875f6367a944a3766925fd3445193358c2b416ec",
+    "tarball": "http://registry.npmjs.org/validator-json/-/validator-json-2.0.6.tgz"
+  },
+  "gitHead": "212182d6f3bb16fad69d4bde1de9449af2af24e8",
+  "homepage": "https://github.com/CocaCola183/validator-json#readme",
+  "keywords": [
+    "validate",
+    "Node.js",
+    "Node",
+    "javascript"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "email": "s_f_dragon@163.com",
+      "name": "blackwhite"
+    }
+  ],
+  "name": "validator-json",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CocaCola183/validator-json.git"
+  },
+  "scripts": {
+    "cov": "istanbul cover ./node_modules/mocha/bin/_mocha ./test/test.js -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+    "test": "mocha ./test/test.js"
+  },
+  "version": "2.0.6"
+}
